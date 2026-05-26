@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bfhl-api
+    runtime: docker
+    repo: https://github.com/sanvi-nahar/bajaj-finserv-api-challenge
+    branch: main
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8080
