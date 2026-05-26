@@ -10,7 +10,7 @@ import java.util.List;
 public class BfhlResponse {
 
     @JsonProperty("is_success")
-    private boolean isSuccess;
+    private boolean success;
 
     @JsonProperty("user_id")
     private String userId;

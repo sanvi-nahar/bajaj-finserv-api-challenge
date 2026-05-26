@@ -44,7 +44,7 @@ public class BfhlServiceImpl implements BfhlService {
         String concatString = buildConcatString(alphabets);
 
         return BfhlResponse.builder()
-                .isSuccess(true)
+                .success(true)
                 .userId(USER_ID)
                 .email(EMAIL)
                 .rollNumber(ROLL_NUMBER)
